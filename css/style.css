@@ -43,7 +43,7 @@ body {
 .headline h2 {
   color: #FFF; //#EB7D4D;
   font-family: 'Press Start 2P', cursive;
-  font-size: 20px;
+  font-size: 16px;
   text-shadow: 0 0 15px rgba(0,0,0,0.5)
 }
 
@@ -404,6 +404,7 @@ footer {
   .container {margin: 0 15px;}
   .headline {padding: 75px 0 75px 0;}
   .headline h1, .headline h2 {text-align: center;}
+  .headline h1 img {margin: 0 auto;}
   .headline h2 {margin-bottom: 50px;}
   .featurette-divider {margin: 40px 0;}
   .featurette-heading {font-size: 20px;}
@@ -414,8 +415,9 @@ footer {
   .talk-request, .talk-response {text-align: center;}
 }
 
-@media(max-width:668px) {
+@media (max-width:668px) {
   .headline {padding: 75px 0 75px 0;}
+  .headline h1, .headline h2 {text-align: center;}
   .headline h1 {font-size: 30px;}
   .headline h2 {
       font-size: 32px;
